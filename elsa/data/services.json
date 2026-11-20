@@ -1,0 +1,26 @@
+[
+  {"name": "Modbus TCP",                       "port": 502,   "protocol": "tcp"},
+  {"name": "BACnet/IP",                        "port": 47808, "protocol": "udp"},
+  {"name": "DNP3",                             "port": 20000, "protocol": "tcp"},
+  {"name": "OPC UA",                           "port": 4840,  "protocol": "tcp"},
+  {"name": "MQTT",                             "port": 1883,  "protocol": "tcp"},
+  {"name": "MQTT TLS",                         "port": 8883,  "protocol": "tcp"},
+  {"name": "KNXnet/IP",                        "port": 3671,  "protocol": "udp"},
+  {"name": "EtherNet/IP",                      "port": 44818, "protocol": "tcp"},
+  {"name": "Siemens S7 / IEC 61850 MMS",       "port": 102,   "protocol": "tcp"},
+  {"name": "CoAP",                             "port": 5683,  "protocol": "udp"},
+
+  {"name": "DNP3",                             "port": 20000, "protocol": "udp"},
+  {"name": "EtherNet/IP",                      "port": 44818, "protocol": "udp"},
+  {"name": "EtherNet/IP I/O (implicit)",       "port": 2222,  "protocol": "udp"},
+  {"name": "KNXnet/IP",                        "port": 3671,  "protocol": "tcp"},
+  {"name": "OPC UA over HTTPS",                "port": 4843,  "protocol": "tcp"},
+  {"name": "CoAP over DTLS",                   "port": 5684,  "protocol": "udp"},
+  {"name": "IEC 60870-5-104",                  "port": 2404,  "protocol": "tcp"},
+  {"name": "Niagara Fox",                      "port": 1911,  "protocol": "tcp"},
+  {"name": "Niagara Fox TLS",                  "port": 4911,  "protocol": "tcp"},
+  {"name": "GE SRTP",                          "port": 18245, "protocol": "tcp"},
+  {"name": "Omron FINS",                       "port": 9600,  "protocol": "udp"},
+  {"name": "PROFINET context manager",         "port": 34964, "protocol": "udp"},
+  {"name": "CODESYS runtime",                  "port": 2455,  "protocol": "tcp"}
+]

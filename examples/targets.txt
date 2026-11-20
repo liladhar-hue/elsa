@@ -1,0 +1,3 @@
+# lab targets, one IPv4 address per line
+127.0.0.1
+172.16.1.10
